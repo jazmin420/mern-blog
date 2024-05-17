@@ -1,1 +1,1 @@
-export const SERVER_URL =  "https://mern-blog-6vju.onrender.com/"
+export const SERVER_URL =  "https://mern-blog-6vju.onrender.com"
