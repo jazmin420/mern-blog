@@ -8,14 +8,7 @@ require('./connection')
 // create express appn
 const blogserver = express();
 
-blogserver.use(cors(
-  {
-    origin: 'http://localhost:5173',
-    //allowedHeaders: ['Authorization', 'Content-Type']
-    //methods: ['GET', 'POST', 'PUT', 'DELETE']
-    // credentials: true
-  }
-));
+blogserver.use(cors());
 
 blogserver.use((req, res, next) => {
   res.setHeader('Cross-Origin-Opener-Policy', 'same-origin-allow-popups');
