@@ -1,0 +1,5 @@
+ Navigate & useNavigate:--------
+ you would use Navigate when you want to declaratively render a component that redirects to a different route, and useNavigate when you want to imperatively navigate to a different route in response to some event or side effec
+
+ usesearchparams
+ 
