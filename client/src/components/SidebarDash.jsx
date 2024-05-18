@@ -78,6 +78,7 @@ function SidebarDash() {
             </Sidebar.Item>
           </Link>
 
+          {currentUser.isAdmin && (
           <Link to='/createpost'>
                  <Sidebar.Item
                    active={tab === 'Create Post'}
@@ -87,6 +88,7 @@ function SidebarDash() {
                   Create Post
                  </Sidebar.Item>
                </Link>
+          )}
 
            {currentUser.isAdmin && (
             <Link to='/dashboard?tab=posts'>
