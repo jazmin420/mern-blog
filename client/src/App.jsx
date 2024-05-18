@@ -15,8 +15,8 @@ import UpdatePost from './pages/UpdatePost'
 import ShowPost from './pages/ShowPost'
 import ScrollTop from './components/ScrollTop'
 
-function App() {
 
+function App() {
   return (
     <>
     <BrowserRouter>
